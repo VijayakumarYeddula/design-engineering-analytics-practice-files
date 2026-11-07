@@ -1,0 +1,28 @@
+{
+  "title": "Design Engineering Analytics with Power BI: free learner pack (Course 2, Engxtech, synthetic data)",
+  "upload_type": "lesson",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Yeddula, Vijayakumar Reddy"
+    }
+  ],
+  "description": "<p>Practice files for a free 20-video Power BI course for design and product engineers. One running example, a valve seat ring through revisions A, B and C, is used to teach BOM and revisions, NPD stage-gates, drawings and review findings, mass and cost vs target, tolerance stacks (worst case vs RSS), FEA safety factor and Cpk, combining messy CSV exports in Power Query, engineering-change cycle time and cost, validation pass rate and field ppm with a confidence interval, DFMEA, and dashboards.</p><p>Contents: an 18-sheet synthetic workbook and 21 monthly change-log CSV exports for the fictional company Engxtech; the finished and start Power BI (.pbix) files for each video (saved with Power BI Desktop 2026.10); per-section exercises with worked solutions; a formula cheat sheet; a capstone brief; and the seeded Python scripts that generated the data.</p><p><strong>Engxtech is fictional and all data are synthetic.</strong> Content is licensed CC BY 4.0; the scripts in <code>scripts/</code> are MIT-licensed (see LICENSE-MIT).</p><p>Video playlist: link coming soon.</p>",
+  "keywords": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "design engineering",
+    "engineering change management",
+    "bill of materials",
+    "tolerance stack-up",
+    "DFMEA",
+    "field ppm",
+    "synthetic data",
+    "open educational resource"
+  ],
+  "notes": "Fictional company and synthetic data. Scripts under MIT; all other content CC BY 4.0."
+}
