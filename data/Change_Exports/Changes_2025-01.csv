@@ -1,0 +1,2 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3120,,Cost reduction,Low,P500,2025-01-23,2025-02-01,2025-02-20,2025-03-04,2025-03-06,Closed,-721.0,Yes,A. Patel

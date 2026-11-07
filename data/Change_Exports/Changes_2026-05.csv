@@ -1,0 +1,15 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3002,,Cost reduction,High,E600,2026-05-27,2026-05-28,2026-06-03,2026-07-01,2026-07-03,Closed,-2833.0,No,L. Okafor
+ECR-3009,,Design error,Low,P100,2026-05-26,2026-05-29,2026-06-20,2026-07-31,2026-08-01,Closed,566.0,Yes,M. Chen
+ECR-3015,,Supplier change,Low,P500,2026-05-05,2026-05-07,,,,In review,214.0,No,M. Chen
+ECR-3022,,Supplier change,Medium,E600,2026-05-16,2026-05-19,2026-06-01,2026-07-02,2026-07-04,Closed,5444.0,Yes,M. Chen
+ECR-3023,,Manufacturability,Medium,P200,2026-05-30,2026-05-31,,,,In review,1089.0,No,M. Chen
+ECR-3040,,Design error,Medium,P100,2026-05-24,2026-05-25,2026-07-02,2026-07-11,2026-07-14,Closed,986.0,Yes,L. Okafor
+ECR-3058,,Customer request,Medium,E700,2026-05-24,2026-05-29,2026-05-29,2026-06-11,2026-06-13,Closed,633.0,No,M. Chen
+ECR-3059,,Field failure,High,P400,2026-05-10,2026-05-11,2026-05-22,2026-06-02,2026-06-03,Closed,1914.0,Yes,R. Iyer
+ECR-3064,,Field failure,High,P100,2026-05-22,2026-05-27,2026-05-28,2026-06-09,2026-06-10,Closed,2972.0,Yes,L. Okafor
+ECR-3089,,Design error,Medium,E800,2026-05-19,2026-05-23,2026-07-26,2026-07-31,2026-08-08,Closed,1793.0,Yes,M. Chen
+ECR-3132,,Supplier change,Low,E-700,2026-05-12,2026-05-14,2026-06-29,2026-07-25,2026-07-27,Closed,398.0,Yes,R. Iyer
+ECR-3136,,Design error,Medium,E800,2026-05-24,2026-05-28,2026-06-10,2026-07-02,2026-07-13,Closed,712.0,Yes,L. Okafor
+ECR-3153,,Customer request,High,E600,2026-05-28,2026-05-28,2026-06-07,2026-07-22,2026-07-25,Closed,1435.0,Yes,R. Iyer
+ECR-3207,ECR-3003,Design error,High,P200,2026-05-31,2026-06-02,2026-06-09,2026-06-21,2026-06-24,Closed,1081.0,Yes,A. Patel

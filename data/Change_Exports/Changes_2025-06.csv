@@ -1,0 +1,8 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3008,,Customer request,High,P300,2025-06-17,2025-06-19,2025-06-23,2025-08-07,2025-08-08,Closed,1161.0,No,L. Okafor
+ECR-3041,,Cost reduction,High,E700,2025-06-29,2025-07-05,2025-07-14,2025-08-09,2025-08-09,Closed,-2016.0,Yes,S. Rao
+ECR-3049,,Manufacturability,High,E700,2025-06-30,2025-07-03,2025-07-11,2025-08-27,2025-08-31,Closed,1154.0,No,M. Chen
+ECR-3068,,Field failure,Medium,E800,2025-06-13,2025-06-19,2025-07-13,2025-08-24,2025-08-29,Closed,4509.0,Yes,S. Rao
+ECR-3101,,Supplier change,Medium,E700,2025-06-22,2025-06-25,2025-07-04,2025-08-14,2025-08-16,Closed,858.0,No,A. Patel
+ECR-3106,,Manufacturability,Medium,P300,2025-06-11,2025-06-14,2025-06-21,2025-08-10,2025-08-10,Closed,551.0,No,R. Iyer
+ECR-3110,,Design error,Low,P500,2025-06-12,2025-06-16,2025-07-01,2025-08-05,2025-08-09,Closed,1300.0,Yes,R. Iyer

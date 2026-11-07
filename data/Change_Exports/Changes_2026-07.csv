@@ -1,0 +1,14 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3016,,Design error,Medium,E700,2026-07-13,2026-07-18,,,,In review,1057.0,Yes,S. Rao
+ECR-3039,,Cost reduction,Low,P500 ,2026-07-27,2026-07-28,2026-08-10,2026-08-26,2026-09-05,Closed,-2475.0,No,S. Rao
+ECR-3057,,Design error,Medium,E600,2026-07-26,2026-07-30,2026-08-08,2026-08-29,2026-09-02,Closed,4423.0,Yes,A. Patel
+ECR-3097,,Design error,Medium,P300,2026-07-05,2026-07-06,2026-07-20,2026-09-04,2026-09-05,Closed,1174.0,Yes,A. Patel
+ECR-3102,,Supplier change,High,P100,2026-07-22,2026-07-25,2026-08-05,2026-09-19,2026-09-29,Closed,709.0,Yes,M. Chen
+ECR-3104,,Cost reduction,Medium,P400 ,2026-07-02,2026-07-04,2026-07-10,2026-07-31,2026-08-02,Closed,-7286.0,No,A. Patel
+ECR-3112,,Customer request,High,P200,2026-07-24,2026-07-27,2026-07-30,2026-09-09,2026-09-16,Closed,704.0,No,R. Iyer
+ECR-3114,,Manufacturability,Medium,P200,2026-07-16,2026-07-22,2026-07-28,2026-09-05,2026-09-06,Closed,590.0,No,A. Patel
+ECR-3124,,Manufacturability,High,P100,2026-07-08,2026-07-08,2026-07-16,2026-08-28,2026-09-08,Closed,3957.0,No,L. Okafor
+ECR-3125,,Cost reduction,Medium,E800,2026-07-10,2026-07-18,,,,In review,-2056.0,Yes,S. Rao
+ECR-3139,,Cost reduction,Medium,P300,2026-07-27,2026-08-03,2026-09-03,2026-09-12,2026-09-19,Closed,-2947.0,Yes,R. Iyer
+ECR-3144,,Cost reduction,Medium,P100,2026-07-19,2026-07-20,,,,In review,-1395.0,No,L. Okafor
+ECR-3203,ECR-3150,Design error,High,P300,2026-07-12,2026-07-14,2026-07-21,2026-08-02,2026-08-05,Closed,3206.0,Yes,S. Rao

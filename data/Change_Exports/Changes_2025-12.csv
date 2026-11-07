@@ -1,0 +1,16 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3011,,Manufacturability,Medium,P300,2025-12-12,2025-12-16,2025-12-19,2026-01-26,2026-01-29,Closed,821.0,Yes,L. Okafor
+ECR-3026,,Manufacturability,Low,E800,2025-12-19,2025-12-25,2026-01-12,2026-01-30,2026-01-31,Closed,3299.0,No,M. Chen
+ECR-3028,,Design error,High,E600,2025-12-02,2025-12-04,2025-12-12,2025-12-23,2025-12-31,Closed,1490.0,Yes,A. Patel
+ECR-3031,,Manufacturability,Medium,E600,2025-12-12,2025-12-15,2026-01-22,2026-03-20,2026-03-21,Closed,2556.0,No,M. Chen
+ECR-3036,,Customer request,High,P500,2025-12-10,2025-12-13,2026-01-02,2026-02-24,2026-03-01,Closed,2056.0,No,L. Okafor
+ECR-3056,,Design error,Low,E600,2025-12-17,2025-12-18,2026-02-15,2026-02-27,2026-03-02,Closed,1367.0,Yes,A. Patel
+ECR-3063,,Customer request,Medium,E800,2025-12-06,2025-12-07,2026-01-21,2026-02-15,2026-02-19,Closed,664.0,No,S. Rao
+ECR-3080,,Design error,Low,E600,2025-12-18,2025-12-18,2026-02-15,2026-03-11,2026-03-12,Closed,5846.0,Yes,L. Okafor
+ECR-3084,,Supplier change,High,P500,2025-12-18,2025-12-22,2025-12-29,2026-01-22,2026-01-26,Closed,1407.0,No,A. Patel
+ECR-3096,,Field failure,High,P300,2025-12-27,2025-12-31,2026-01-10,2026-02-14,2026-02-19,Closed,1046.0,Yes,L. Okafor
+ECR-3142,,Manufacturability,Low,P200,2025-12-21,2025-12-25,2026-01-16,2026-01-23,2026-01-26,Closed,112.0,No,M. Chen
+ECR-3158,,Design error,Medium,E600,2025-12-21,2025-12-21,2026-01-02,2026-01-03,2026-01-04,Closed,2839.0,Yes,S. Rao
+ECR-3204,ECR-3168,Design error,High,P300,2025-12-26,2025-12-28,2026-01-04,2026-01-16,2026-01-19,Closed,1104.0,Yes,M. Chen
+ECR-3208,ECR-3167,Design error,High,P100,2025-12-28,2025-12-30,2026-01-06,2026-01-18,2026-01-21,Closed,773.0,Yes,L. Okafor
+ECR-3035,,Manufacturability,High,P500,2025-11-05,2025-11-07,2025-11-18,2025-12-08,2025-12-08,Closed,628.0,Yes,R. Iyer

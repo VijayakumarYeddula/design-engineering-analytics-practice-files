@@ -1,0 +1,117 @@
+file,key,check,shown_in_pdf,recomputed_python,source,facts_text,match
+B2,b2_mass,"Total Target Mass (control, from B2 video)","14,865","14,865",computed from learner workbook/CSVs,,YES
+B2,b2_total,"Total Target Cost, all products",412.00,412.00,computed from learner workbook/CSVs,,YES
+B2,b2_CP-100,"Total Target Cost, Centrifugal pump",129.50,129.50,computed from learner workbook/CSVs,,YES
+B2,b2_BP-200,"Total Target Cost, Booster pump set",97.00,97.00,computed from learner workbook/CSVs,,YES
+B2,b2_MV-300,"Total Target Cost, Motorised control valve",185.50,185.50,computed from learner workbook/CSVs,,YES
+B2,b2_top,Largest part line: Drive Motor,170.00,170.00,computed from learner workbook/CSVs,,YES
+S02,s02_revs,Rows in Revisions (PartRev keys),16,16,Facts_C2.md,"3 products, 8 parts, 16 revisions",YES
+S02,s02_p300revs,P300 revisions,3,3,computed from learner workbook/CSVs,,YES
+S02,s02_rev_ecr,P300 rev in effect on 26 Jan 2026 (ECR-3200 request),B,B,computed from learner workbook/CSVs,,YES
+S02,s02_rev_cut,P300 rev in effect on 30 Sep 2026,C,C,computed from learner workbook/CSVs,,YES
+S02,s02_match,Builds rows where RevByDate = SeatRingRev,53 of 56,53 of 56,computed from learner workbook/CSVs,,YES
+S02,s02_mismatch,Mismatch rows (change-over month),"3 rows, May 2025","3 rows, May 2025",computed from learner workbook/CSVs,,YES
+S02,s02_units,Product units built (Builds),"40,962","40,962",Facts_C2.md,"units built 40,962",YES
+S02,s02_rings,"Seat rings fitted = SUMX(Builds, UnitsBuilt x QtyPer of P300)","73,503","73,503",computed from learner workbook/CSVs,,YES
+S02,s02_perset,Seat rings in one of each product (2 + 2 + 1),5,5,computed from learner workbook/CSVs,,YES
+S03,s03_ontime,"On-time gates, all stages",56.3 % (108/192),56.3 % (108/192),Facts_C2.md,On-time gates overall 56.3 % (108/192),YES
+S03,s03_check_ontime,"On-time gates, Checking",37.5 % (6/16),37.5 % (6/16),Facts_C2.md,8 Checking 37.5 % (6/16),YES
+S03,s03_topslip,Stage with most slip days,Checking 31 d,Checking 31 d,Facts_C2.md,Checking 31 d,YES
+S03,s03_allslip,"Slip days, all stages",110 d,110 d,Facts_C2.md,(all stages 110 d),YES
+S03,s03_p300b,"P300-B slip days, stages 1-10",19 d,19 d,Facts_C2.md,slip up to Release 19 d,YES
+S03,s03_p300b_check,P300-B slip days in Checking,10 d,10 d,Facts_C2.md,Checking +10 d,YES
+S03,s03_rework,Rework gates (GateResult = Rework),16,16,Facts_C2.md,Rework gates 16,YES
+S03,s03_check_med,Checking median planned / actual days,4.0 / 6.0,4.0 / 6.0,Facts_C2.md,8 Checking 4.0 / 6.0,YES
+S06,s06_files,CSV files combined,21,21,Facts_C2.md,21 monthly CSVs,YES
+S06,s06_raw,Rows after combine,184,184,Facts_C2.md,184 rows incl. 6 exact duplicates,YES
+S06,s06_dups,Exact duplicate rows removed,6,6,Facts_C2.md,184 rows incl. 6 exact duplicates,YES
+S06,s06_clean,Rows after Remove Duplicates,178,178,Facts_C2.md,178 unique = 178 changes,YES
+S06,s06_variants,PrimaryPart values typed differently (unique changes),14,14,Facts_C2.md,(unique changes): 14,YES
+S06,s06_distinct,Distinct PrimaryPart after cleaning,8,8,computed from learner workbook/CSVs,,YES
+S06,s06_p300,Changes with PrimaryPart = P300 after cleaning,26,26,Facts_C2.md,P300 26,YES
+S06,s06_closed,Status = Closed after cleaning,154,154,Facts_C2.md,Closed 154,YES
+S07,s07_changes,Change Count (all),178,178,Facts_C2.md,Changes 178,YES
+S07,s07_req25,Changes requested in 2025 (active RequestDate),81,81,computed from learner workbook/CSVs,,YES
+S07,s07_cls25,Changes closed in 2025 (USERELATIONSHIP CloseDate),66,66,computed from learner workbook/CSVs,,YES
+S07,s07_req26,Changes requested in 2026,97,97,computed from learner workbook/CSVs,,YES
+S07,s07_cls26,Changes closed in 2026,88,88,computed from learner workbook/CSVs,,YES
+S07,s07_closedpct,"Closed % = DIVIDE(Closed, All)",86.5 %,86.5 %,computed from learner workbook/CSVs,,YES
+S07,s07_bridge,P300 changes via ChangeAffectedItems (bridge),45,45,Facts_C2.md,P300 45,YES
+S07,s07_primary,P300 changes via PrimaryPart,26,26,Facts_C2.md,P300 26,YES
+S07,s07_afrows,ChangeAffectedItems rows,304,304,Facts_C2.md,(304 rows),YES
+S04,s04_ontime,On-time release %,33.3 % (7/21),33.3 % (7/21),Facts_C2.md,on-time release 33.3 % (7/21),YES
+S04,s04_avglate,Average lateness of late drawings,4.6 d,4.6 d,Facts_C2.md,average lateness of the late ones 4.6 d,YES
+S04,s04_p300b,P300-B drawing lateness / review rounds,19 d / 3,19 d / 3,Facts_C2.md,P300-B drawing released 19 d late after 3 review rounds,YES
+S04,s04_findings,Review findings / major,60 / 19,60 / 19,Facts_C2.md,"Review findings 60 (2.86 per drawing), 19 major",YES
+S04,s04_top,Top category (Pareto),Tolerance 23,Tolerance 23,Facts_C2.md,Tolerance 23,YES
+S04,s04_tolshare,Tolerance share of all findings,38.3 %,38.3 %,computed from learner workbook/CSVs,,YES
+S04,s04_top3,Cumulative % after the first three bars (GD&T and Material tie at 10),71.7 %,71.7 %,computed from learner workbook/CSVs,,YES
+S04,s04_massover,Revisions over MASS target,15 of 16,15 of 16,Facts_C2.md,Mass over target: 15 of 16,YES
+S04,s04_costover,Revisions over COST target,10 of 16,10 of 16,Facts_C2.md,Cost over target: 10 of 16,YES
+S04,s04_topmass,Largest mass overrun,P100-B +12.4 %,P100-B +12.4 %,Facts_C2.md,P100-B +12.4 %,YES
+S04,s04_topcost,Largest cost overrun,P400-A +21.8 %,P400-A +21.8 %,Facts_C2.md,P400-A +21.8 %,YES
+S05,s05_stk02_wc,STK-02 worst case range / verdict,-0.020..0.420 (fail),-0.020..0.420 (fail),Facts_C2.md,WC -0.020..0.420 (fail),YES
+S05,s05_stk02_rss,STK-02 RSS range / verdict,0.0842..0.3158 (pass),0.0842..0.3158 (pass),Facts_C2.md,RSS 0.0842..0.3158 (pass),YES
+S05,s05_stk01_wc,STK-01 rev A/B worst case,-0.001..0.101 (fail),-0.001..0.101 (fail),Facts_C2.md,WC -0.001..0.101 (fail),YES
+S05,s05_stk01c_wc,STK-01 rev C worst case,0.006..0.094 (fail),0.006..0.094 (fail),Facts_C2.md,WC 0.006..0.094 (fail),YES
+S05,s05_stk01c_rss,STK-01 rev C RSS,0.0298..0.0702 (pass),0.0298..0.0702 (pass),Facts_C2.md,RSS 0.0298..0.0702 (pass),YES
+S05,s05_whatif0,STK-01 WC max with OD tol set to 0 (what-if),0.086,0.086,computed from learner workbook/CSVs,,YES
+S05,s05_sfmin,Lowest SF,P200-B Drop 1 m 1.40,P200-B Drop 1 m 1.40,Facts_C2.md,P200-B Drop 1 m 1.40,YES
+S05,s05_sfbelow,Load cases below SF 1.5,1,1,Facts_C2.md,below target: P200-B Drop 1 m 1.40,YES
+S05,s05_sfp300c,P300-C seating load SF,1.78,1.78,Facts_C2.md,P300-C Seating load 1.78,YES
+S05,s05_cpkbelow,Machines with Cpk < 1.33,3,3,Facts_C2.md,"Below 1.33: GRD-02 (P300) 0.787, CNC-L03 (P100) 1.163, CNC-M03 (P200) 1.329",YES
+S05,s05_closest,Closest machine at or above 1.33 / margin,"INJ-02, Cpk 1.412, margin +0.082","INJ-02, Cpk 1.412, margin +0.082",Facts_C2.md,P500 INJ-02 1.412,YES
+S05,s05_grd02,Lowest Cpk,GRD-02 0.787,GRD-02 0.787,Facts_C2.md,P300 GRD-02 0.787,YES
+S08,s08_median,Median closed cycle time,47.0 d,47.0 d,Facts_C2.md,median 47.0 d,YES
+S08,s08_p90,p90 closed cycle time (PERCENTILEX.INC),83.7 d,83.7 d,Facts_C2.md,p90 83.7 d,YES
+S08,s08_appr,Median approval stage (Triage -> Approval),13.0 d,13.0 d,Facts_C2.md,approval 13.0,YES
+S08,s08_rework,Rework changes (ParentChangeID filled),9,9,Facts_C2.md,Rework changes (ParentChangeID filled): 9,YES
+S08,s08_net,Net change cost (USD),"158,004","158,004",Facts_C2.md,"Change cost NET 158,004 USD",YES
+S08,s08_gross,Gross added cost (USD),"251,790","251,790",Facts_C2.md,"gross added cost 251,790 USD",YES
+S08,s08_save,Savings (USD),"-93,786","-93,786",Facts_C2.md,"savings -93,786 USD",YES
+S08,s08_bl_cut,Open backlog as of 30 Sep 2026,24,24,Facts_C2.md,open (not Closed) 24,YES
+S08,s08_bl_25,Open backlog as of 31 Dec 2025,15,15,computed from learner workbook/CSVs,,YES
+S08,s08_ecr,ECR-3200 cycle / approval stage,123 d / 57 d,123 d / 57 d,Facts_C2.md,cycle 123 d; approval stage (triage -> approval) 57 d,YES
+S08,s08_slower,Closed changes with cycle > 123 d (slower than ECR-3200),1,1,computed from learner workbook/CSVs,,YES
+S09,s09_pass,Validation test pass rate,90.9 % (149/164),90.9 % (149/164),Facts_C2.md,overall 90.9 % (149/164 lots),YES
+S09,s09_matmonths,Matured build months,Mar 2025 to Jun 2026,Mar 2025 to Jun 2026,Facts_C2.md,Matured build months: Mar 2025 to Jun 2026,YES
+S09,s09_revA,Seat-ring-wear ppm rev A (matured),2255 ppm (8/3548); 95 % CI 973-4443 ppm,2255 ppm (8/3548); 95 % CI 973-4443 ppm,Facts_C2.md,Rev A: 2255 ppm (8/3548); 95 % CI 973-4443 ppm,YES
+S09,s09_revB,Seat-ring-wear ppm rev B (matured),2892 ppm (81/28007); 95 % CI 2297-3595 ppm,2892 ppm (81/28007); 95 % CI 2297-3595 ppm,Facts_C2.md,Rev B: 2892 ppm (81/28007); 95 % CI 2297-3595 ppm,YES
+S09,s09_revC,Seat-ring-wear ppm rev C (matured),1710 ppm (4/2339); 95 % CI 466-4379 ppm,1710 ppm (4/2339); 95 % CI 466-4379 ppm,Facts_C2.md,Rev C: 1710 ppm (4/2339); 95 % CI 466-4379 ppm,YES
+S09,s09_revC_all,Rev C incl. unmatured (not valid),850 ppm (8/9407),850 ppm (8/9407),Facts_C2.md,8/9407 = 850 ppm,YES
+S10,s10_df01,DF-01 RPN before / after,280 / 72,280 / 72,Facts_C2.md,DF-01 280/72,YES
+S10,s10_sum,Sum of RPN before / after,1470 / 788,1470 / 788,computed from learner workbook/CSVs,,YES
+S10,s10_ge100,Lines with RPN >= 100 before / after,8 / 2,8 / 2,computed from learner workbook/CSVs,,YES
+S10,s10_highs,High S (>= 7) with no action,"DF-04, DF-07","DF-04, DF-07",Facts_C2.md,"high severity (S >= 7) with no action: DF-04, DF-07",YES
+S10,s10_s9,Lines with S = 9,3,3,computed from learner workbook/CSVs,,YES
+S11,s11_find,P300-B review findings,9,9,Facts_C2.md,P300-B 9,YES
+S11,s11_p300find,"P300 review findings, all revs",15,15,computed from learner workbook/CSVs,,YES
+S11,s11_p300tol,P300 findings in Tolerance category,12 of 15,12 of 15,computed from learner workbook/CSVs,,YES
+S11,s11_drill,Drill-through P300-B drawing / days late / rounds,DRW-1008 / 19 d / 3,DRW-1008 / 19 d / 3,Facts_C2.md,P300-B drawing released 19 d late after 3 review rounds,YES
+S11,s11_drill_maj,Drill-through P300-B major findings / Tolerance findings,4 / 6 of 9,4 / 6 of 9,computed from learner workbook/CSVs,,YES
+S11,s11_cpk,P300 GRD-02 Cpk,0.787,0.787,Facts_C2.md,P300 GRD-02 0.787,YES
+S11,s11_sfB,P300-B seating load SF,1.53,1.53,Facts_C2.md,P300-B Seating load 1.53,YES
+S11,s11_ecrcost,ECR-3200 cost impact (USD),"18,400","18,400",Facts_C2.md,"cost 18,400 USD",YES
+S11,s11_p300ch,P300 changes via bridge / PrimaryPart,45 / 26,45 / 26,Facts_C2.md,P300 45,YES
+S11,s11_wearcost,Seat-ring-wear warranty cost (USD),"88,246","88,246",Facts_C2.md,"seat ring 88,246 USD",YES
+S12,s12_rework,Rework gates / revisions with rework,16 / 8,16 / 8,Facts_C2.md,Rework gates 16 (on 8 revisions,YES
+S12,s12_lategates,Late gates (Gate Days Late > 0),84,84,computed from learner workbook/CSVs,,YES
+S12,s12_worstgate,Latest gate: PartRev / stage / days,P300-B / Production handover / 22 d,P300-B / Production handover / 22 d,computed from learner workbook/CSVs,,YES
+S12,s12_mv_gate,Motorised control valve: On-time Gate %,62.1%,62.1%,computed from learner workbook/CSVs,,YES
+S12,s12_mv_slip,Motorised control valve: top slip stage,"Checking, 31 d","Checking, 31 d",computed from learner workbook/CSVs,,YES
+S12,s12_mv_open,Motorised control valve: open ECRs at the cut-off,15,15,computed from learner workbook/CSVs,,YES
+S12,s12_bl_dec25,"Open Backlog, Dec 2025 (month end)",15,15,computed from learner workbook/CSVs,,YES
+S12,s12_bl_jun26,"Open Backlog, Jun 2026 (month end)",26,26,computed from learner workbook/CSVs,,YES
+S12,s12_p300cyc,P300: closed changes / median / p90 cycle days,26 / 47.5 / 62.5,26 / 47.5 / 62.5,computed from learner workbook/CSVs,,YES
+S13,s13_tt_dim,"Validation pass rate, Dimensional",91.8% (45 of 49),91.8% (45 of 49),computed from learner workbook/CSVs,,YES
+S13,s13_tt_end,"Validation pass rate, Endurance",89.8% (44 of 49),89.8% (44 of 49),computed from learner workbook/CSVs,,YES
+S13,s13_tt_env,"Validation pass rate, Environmental",90.9% (60 of 66),90.9% (60 of 66),computed from learner workbook/CSVs,,YES
+S13,s13_ppm_CP-100,CP-100: failures / matured units / ppm (95 % CI),"50 / 15,726 / 3,179 (2,360 to 4,192)","50 / 15,726 / 3,179 (2,360 to 4,192)",computed from learner workbook/CSVs,,YES
+S13,s13_ppm_BP-200,BP-200: failures / matured units / ppm (95 % CI),"36 / 11,291 / 3,188 (2,233 to 4,414)","36 / 11,291 / 3,188 (2,233 to 4,414)",computed from learner workbook/CSVs,,YES
+S13,s13_ppm_MV-300,MV-300: failures / matured units / ppm (95 % CI),"7 / 6,877 / 1,018 (409 to 2,097)","7 / 6,877 / 1,018 (409 to 2,097)",computed from learner workbook/CSVs,,YES
+S13,s13_perring,ppm per seat ring fitted: CP-100 / BP-200 / MV-300,"1,590 / 1,594 / 1,018","1,590 / 1,594 / 1,018",computed from learner workbook/CSVs,,YES
+S13,s13_avgseat,Average seat-ring-wear claim cost (USD),426.31,426.31,computed from learner workbook/CSVs,,YES
+S13,s13_other,"Warranty cost, all other failure modes (USD)","6,530","6,530",computed from learner workbook/CSVs,,YES
+S13,s13_seatshare,Seat ring wear share of claims,88.5% (207 of 234),88.5% (207 of 234),Facts_C2.md,seat ring wear 207,YES
+S13,s13_ra100,Lines with RPN After >= 100,"2 (DF-04, DF-07)","2 (DF-04, DF-07)",computed from learner workbook/CSVs,,YES
+S13,s13_cohort,Seat-ring-wear claims: in ppm / after 90 days / unmatured month,93 / 110 / 4,93 / 110 / 4,computed from learner workbook/CSVs,,YES

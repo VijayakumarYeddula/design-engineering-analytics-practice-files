@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "Design Engineering Analytics with Power BI: free learner pack (Course 2, Engxtech, synthetic data)"
+version: 1.0.0
+date-released: 2026-11-06
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Yeddula
+    given-names: Vijayakumar Reddy
+    orcid: "https://orcid.org/0009-0008-3998-500X"
+abstract: >-
+  Practice files for a free 20-video Power BI course for design and product
+  engineers: a synthetic design-engineering dataset for the fictional company
+  Engxtech (18-sheet workbook and 21 monthly change-log CSV exports), the
+  finished Power BI files for every video, exercises with worked solutions, a
+  formula cheat sheet and a capstone brief. All data are synthetic. Content is
+  CC BY 4.0; the data-generator scripts are MIT.
+keywords:
+  - Power BI
+  - DAX
+  - Power Query
+  - design engineering
+  - engineering change management
+  - bill of materials
+  - tolerance stack-up
+  - DFMEA
+  - field ppm
+  - synthetic data
+  - open educational resource
+repository-code: "https://github.com/VijayakumarYeddula/design-engineering-analytics-practice-files"

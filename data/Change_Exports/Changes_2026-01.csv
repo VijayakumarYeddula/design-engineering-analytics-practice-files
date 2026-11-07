@@ -1,0 +1,7 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3001,,Cost reduction,Low,p400,2026-01-14,2026-01-15,2026-02-09,2026-02-26,2026-02-27,Closed,-809.0,No,S. Rao
+ECR-3082,,Cost reduction,High,E600,2026-01-14,2026-01-17,2026-01-25,2026-02-14,2026-02-16,Closed,-497.0,No,A. Patel
+ECR-3116,,Customer request,Medium,P200,2026-01-13,2026-01-14,2026-01-31,2026-02-20,2026-02-24,Closed,813.0,No,S. Rao
+ECR-3141,,Customer request,High,E800,2026-01-31,2026-02-01,2026-03-16,2026-03-22,2026-03-23,Closed,526.0,No,S. Rao
+ECR-3146,,Cost reduction,Low,P100,2026-01-28,2026-02-02,2026-03-21,2026-06-18,2026-06-18,Closed,-5516.0,No,M. Chen
+ECR-3200,,Field failure,High,P300,2026-01-26,2026-01-29,2026-03-27,2026-05-18,2026-05-29,Closed,18400.0,Yes,S. Rao

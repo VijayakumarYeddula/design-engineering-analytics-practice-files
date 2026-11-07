@@ -1,0 +1,3 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3054,,Design error,Low,P500,2025-02-21,2025-02-24,2025-03-04,2025-03-18,2025-03-20,Closed,1154.0,Yes,S. Rao
+ECR-3118,,Cost reduction,High,P200,2025-02-28,2025-02-28,2025-03-16,2025-03-31,2025-04-11,Closed,-3737.0,No,R. Iyer

@@ -1,0 +1,11 @@
+ChangeID,ParentChangeID,Reason,Priority,PrimaryPart,RequestDate,TriageDate,ApprovalDate,ImplementDate,CloseDate,Status,CostImpact_USD,NeedsRevalidation,Originator
+ECR-3045,,Design error,Medium,P300,2025-08-09,2025-08-14,2025-09-01,2025-10-04,2025-10-05,Closed,409.0,Yes,A. Patel
+ECR-3075,,Design error,Medium,E800,2025-08-09,2025-08-15,2025-10-07,2025-10-28,2025-10-30,Closed,1178.0,Yes,A. Patel
+ECR-3103,,Cost reduction,High,E800,2025-08-18,2025-08-22,2025-09-19,2025-09-28,2025-09-28,Closed,-315.0,No,R. Iyer
+ECR-3129,,Design error,Medium,E700,2025-08-15,2025-08-16,2025-08-30,2025-09-12,2025-09-21,Closed,2921.0,Yes,S. Rao
+ECR-3140,,Customer request,Medium,P100,2025-08-02,2025-08-09,2025-08-30,2025-10-11,2025-10-13,Closed,234.0,No,S. Rao
+ECR-3143,,Customer request,Medium,e800,2025-08-31,2025-09-03,2025-11-03,2025-11-21,2025-11-24,Closed,5833.0,Yes,M. Chen
+ECR-3145,,Design error,Low,P300,2025-08-18,2025-08-18,2025-09-21,2025-10-15,2025-10-20,Closed,8000.0,Yes,L. Okafor
+ECR-3152,,Design error,Medium,P100,2025-08-09,2025-08-11,2025-08-13,2025-09-17,2025-09-21,Closed,348.0,Yes,M. Chen
+ECR-3201,ECR-3008,Design error,High,P300,2025-08-26,2025-08-28,2025-09-04,2025-09-16,2025-09-19,Closed,1691.0,Yes,L. Okafor
+ECR-3024,,Design error,Medium,E800,2025-07-12,2025-07-20,2025-09-10,2025-10-13,2025-10-20,Closed,7461.0,Yes,R. Iyer
