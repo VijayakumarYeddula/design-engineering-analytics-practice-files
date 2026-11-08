@@ -6,7 +6,7 @@ Practice files for a free, 20-video YouTube course that teaches Power BI to desi
 
 - Tool: Power BI Desktop (free). Nothing else is needed.
 - Cost: free. No sign-up.
-- Video playlist: link coming soon.
+- Video playlist: https://www.youtube.com/playlist?list=PLMfVqRIsDgHc
 - Author: Vijayakumar Reddy Yeddula (channel "Vijayakumar Yeddula | Engineering & Career Skills").
 
 ## What you learn
